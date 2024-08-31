@@ -1,0 +1,65 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(10, 205, 253, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+    height:400px;
+}
+
+.app-header h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #0c0c0c;
+}
+
+.search-section {
+    margin-bottom: 20px;
+}
+
+#cityInput {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+#searchButton {
+    padding: 10px 15px;
+    border: none;
+    color: #33e207;
+    border-radius: 4px;
+    cursor: pointer;
+    width:70px;
+}
+
+.weather-display h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #05a7e7;
+}
+
+.weather-display p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
